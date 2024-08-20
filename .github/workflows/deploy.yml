@@ -6,6 +6,9 @@ on:
       - dev
 env:
   MONGODB_DB_NAME: gha-demo
+  MONGODB_CLUSTER_ADDRESS: cluster0.zzpbw.mongodb.net
+  MONGODB_USERNAME: jamesmd1996
+  MONGODB_PASSWORD: smZuIiYi4Dw8oxcI
 jobs:
   test:
     env:
