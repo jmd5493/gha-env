@@ -9,14 +9,9 @@ env:
   MONGODB_CLUSTER_ADDRESS: cluster0.zzpbw.mongodb.net
   MONGODB_USERNAME: jamesmd1996
   MONGODB_PASSWORD: smZuIiYi4Dw8oxcI
-  Port: 8080
+  Port: 3000
 jobs:
   test:
-    env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.zzpbw.mongodb.net
-      MONGODB_USERNAME: jamesmd1996
-      MONGODB_PASSWORD: smZuIiYi4Dw8oxcI
-      Port: 8080
     environment: testing
     runs-on: ubuntu-latest
     steps:
